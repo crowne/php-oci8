@@ -5,8 +5,8 @@ This project creates a docker image for running php7 with oci8 to connect to an 
 ## Build
 
 ```shell
-$ docker build --force-rm=true --no-cache=true -t crowne/php-oci8:7-fpm-alpine -f Dockerfile .
-$ docker push crowne/php-oci8:7-fpm-alpine
+$ docker build --force-rm=true --no-cache=true -t crowne/php-oci8:8.2.0-fpm-alpine3.17 -f Dockerfile .
+$ docker push crowne/php-oci8:8.2.0-fpm-alpine3.17
 ```
 
 ## Test

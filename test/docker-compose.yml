@@ -23,7 +23,7 @@ services:
         networks:
             - code-network
     php:
-        image: crowne/php-oci8:7-fpm-alpine
+        image: crowne/php-oci8:8.2.0-fpm-alpine3.17
         volumes:
             - ./code:/code
         networks:
