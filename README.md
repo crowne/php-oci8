@@ -19,6 +19,12 @@ $ docker compose up -d
 Wait a minute for the database to start.  
 Open your browser at http://localhost:8080/dbtest.php
 
+For a terminal on the containers
+```shell
+$ docker exec -it hexcontainerid sh
+```
+
+To shut-down
 ```shell
 $ docker compose down
 ```
